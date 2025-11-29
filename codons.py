@@ -1,5 +1,4 @@
 def create_codon_dict(file_path):
-              def create_codon_dict(file_path):
     mapping_between_codons_and_amino_acids = {}
     with open(file_path, 'r') as f:
         for line in f:
